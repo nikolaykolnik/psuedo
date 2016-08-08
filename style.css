@@ -1,5 +1,12 @@
-html {background-color:#333;color:white;}
+html {background-color:#333;}
 
+li {color:white;font-famiy:sans-serif;font-size:2rem;}
 li:hover {background-color:rgba(100,130,140,.6);}
 li ul {display:none;}
 li:hover>ul {display:block;}
+
+li:first-child {color:lime;}
+li:last-child {color:springgreen;}
+
+li:nth-child(odd) {text-decoration:underline;}
+li:nth-child(even) {margin-left:1em;}
