@@ -1,1 +1,5 @@
-hmtl {background-color:#333;}
+html {background-color:#333;color:white;}
+
+li:hover {background-color:rgba(100,130,140,.6);}
+li ul {display:none;}
+li:hover>ul {display:block;}
